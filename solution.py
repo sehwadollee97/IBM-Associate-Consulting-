@@ -27,39 +27,39 @@ if False in list_true:
 else:
     print('Yes')
 
+###################################q1################
+
+############################q2###########################
+n=input()
+errorCodes=[]
+for i in range(int(n)):
+
+    file=input()
+    filespl=file.split(' ')
+    print(filespl)
+    allValid = True
+    isValid=filespl[1]
+    isValid=isValid.capitalize()
 
 
-############################q2
-# n=input()
-# errorCodes=[]
-# for i in range(int(n)):
-
-#     file=input()
-#     filespl=file.split(' ')
-#     print(filespl)
-#     allValid = True
-#     isValid=filespl[1]
-#     isValid=isValid.capitalize()
-
-
-#     #print(isValid)
+    #print(isValid)
 
    
 
-#     #allValid = record.isValid
-#     if isValid =='True':
-#         allValid=True
+    #allValid = record.isValid
+    if isValid =='True':
+        allValid=True
 
-#     else:
-#         errorCodes.append (filespl[2])
-#         allValid=False
+    else:
+        errorCodes.append (filespl[2])
+        allValid=False
             
 
-#     if allValid=='True':
-#         print ("Yes")
-#     else:
-#         print( "No")
-#         print(errorCodes)
+    if allValid=='True':
+        print ("Yes")
+    else:
+        print( "No")
+        print(errorCodes)
 
 
 ##############q3
